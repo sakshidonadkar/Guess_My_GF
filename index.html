@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Future GF</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <p id="heading">Guess Your Future GF</p>
+      <p style="font-size: 18px; color: #dadada">
+        List the names of the girls you have a crush on one by one, and then
+        click the "Generate" button.
+      </p>
+
+      <div class="game">
+        <header>
+          <div class="input">
+            <input
+              type="text"
+              name=""
+              id="name_entered"
+              placeholder="Enter Crushes..."
+            />
+          </div>
+          <button class="generateName" id="addName">Add Name</button>
+        </header>
+        <div class="data__store">
+          <div class="input__names">
+            <p class="title" style="color: aliceblue">
+              Entered Names are showing here..
+            </p>
+            <div class="name__container">
+              <p class="name" id="name"></p>
+            </div>
+          </div>
+
+          <div class="generate_result">
+            <button class="generate_output" id="generate_output">
+              Generate❤️
+            </button>
+          </div>
+
+          <div class="input__result" id="input__result">
+            <p class="result" id="result">GF will Be...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
